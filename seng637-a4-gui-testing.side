@@ -1,0 +1,1949 @@
+{
+  "id": "338c8d54-b891-4bfa-b23a-105ff9618ed0",
+  "version": "2.0",
+  "name": "seng637-a4-gui-testing",
+  "url": "https://shopsmartcanada.com/",
+  "tests": [{
+    "id": "bdf24988-a498-47d4-84a9-c49faafe79e6",
+    "name": "Login_Valid",
+    "commands": [{
+      "id": "438ba273-7e4b-427e-930e-d99625e16d31",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e29f2df-71cb-4259-892a-666f90bef96e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08083499-3aa5-4d6c-a525-33bbb02812b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navUser-action:nth-child(3) > .\\_label",
+      "targets": [
+        ["css=.navUser-action:nth-child(3) > .\\_label", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f04c7a6-85a3-47f9-81c1-163cbf337454",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_email",
+      "targets": [
+        ["id=login_email", "id"],
+        ["name=login_email", "name"],
+        ["css=#login_email", "css:finder"],
+        ["xpath=//input[@id='login_email']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c32607c-ca2e-49fd-b080-fb22dc83a1c2",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_email",
+      "targets": [
+        ["id=login_email", "id"],
+        ["name=login_email", "name"],
+        ["css=#login_email", "css:finder"],
+        ["xpath=//input[@id='login_email']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "ali_nuralhuda@yahoo.ca"
+    }, {
+      "id": "3f43a2c0-b2c1-4062-a15b-2ec1200afd57",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_pass",
+      "targets": [
+        ["id=login_pass", "id"],
+        ["name=login_pass", "name"],
+        ["css=#login_pass", "css:finder"],
+        ["xpath=//input[@id='login_pass']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8795dea7-e433-4732-b907-737cd41d25c3",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_pass",
+      "targets": [
+        ["id=login_pass", "id"],
+        ["name=login_pass", "name"],
+        ["css=#login_pass", "css:finder"],
+        ["xpath=//input[@id='login_pass']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Thisisatest123!"
+    }, {
+      "id": "cc565a4d-5aab-41e4-958b-4ee42948cd9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-actions > .button",
+      "targets": [
+        ["css=.form-actions > .button", "css:finder"],
+        ["xpath=//input[@value='Sign in']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db1dd78e-67fe-4953-8688-3ed7487fc331",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Shop Smart Canada - Order Status",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "87b9bab6-3c32-46f5-889a-8c4a13059990",
+    "name": "Login_Invalid",
+    "commands": [{
+      "id": "974e68e2-e838-492e-8377-2a20276fd956",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c64cd13c-dcfe-4798-a3fa-463d415f6607",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35fb69dd-93fc-4d75-aa0e-15ab61caba02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navUser-action:nth-child(3) > .\\_label",
+      "targets": [
+        ["css=.navUser-action:nth-child(3) > .\\_label", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4e2d118-8121-473e-aa72-bb82d3208f0b",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_email",
+      "targets": [
+        ["id=login_email", "id"],
+        ["name=login_email", "name"],
+        ["css=#login_email", "css:finder"],
+        ["xpath=//input[@id='login_email']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "804e5a89-f58f-453a-a578-6f2c3365631c",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_email",
+      "targets": [
+        ["id=login_email", "id"],
+        ["name=login_email", "name"],
+        ["css=#login_email", "css:finder"],
+        ["xpath=//input[@id='login_email']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "thisisinvalid@yahoo.ca"
+    }, {
+      "id": "ea9448fd-a8d0-42c4-a391-b23822225d76",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_pass",
+      "targets": [
+        ["id=login_pass", "id"],
+        ["name=login_pass", "name"],
+        ["css=#login_pass", "css:finder"],
+        ["xpath=//input[@id='login_pass']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d15b113-419e-4f3e-8543-712379647ddf",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_pass",
+      "targets": [
+        ["id=login_pass", "id"],
+        ["name=login_pass", "name"],
+        ["css=#login_pass", "css:finder"],
+        ["xpath=//input[@id='login_pass']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Thisisinvalid123!"
+    }, {
+      "id": "e1df0e05-7d67-4468-9b94-eeeb2fba7cad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-actions > .button",
+      "targets": [
+        ["css=.form-actions > .button", "css:finder"],
+        ["xpath=//input[@value='Sign in']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "534e8473-3788-47f7-8746-ad31a664b587",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.alertBox-message",
+      "targets": [
+        ["css=.alertBox-message", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7c573e99-5ea5-42b3-b16b-8dbff87b7aa0",
+    "name": "AddToCart_OneItem",
+    "commands": [{
+      "id": "576bd14f-2f2a-4a9f-8e95-333a589df779",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/champs-softech-collection-2-piece-smart-expandable-softside-spinner-luggage-set-with-usb-port-navy/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34167906-4a05-4749-945f-16ab0a3cc35d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x854",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11168ab3-095a-48aa-a093-5298320f87db",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-action-addToCart",
+      "targets": [
+        ["id=form-action-addToCart", "id"],
+        ["css=#form-action-addToCart", "css:finder"],
+        ["xpath=//button[@id='form-action-addToCart']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div[2]/div/div[2]/div/div/div/section/div[4]/form/div[2]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "102321ff-6b25-46b5-a395-1af3ea2de0e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_heading > a > span",
+      "targets": [
+        ["css=.\\_heading > a > span", "css:finder"],
+        ["xpath=//div[@id='cart-preview-dropdown']/div/div[2]/h2/a/span", "xpath:idRelative"],
+        ["xpath=//h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Edit Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d7417b2-b827-4c18-b7b6-dc2d3918c316",
+      "comment": "",
+      "command": "click",
+      "target": "id=qty-834bc750-3a60-4d47-aaf2-7985b4aecde3",
+      "targets": [
+        ["id=qty-834bc750-3a60-4d47-aaf2-7985b4aecde3", "id"],
+        ["name=qty-834bc750-3a60-4d47-aaf2-7985b4aecde3", "name"],
+        ["css=#qty-834bc750-3a60-4d47-aaf2-7985b4aecde3", "css:finder"],
+        ["xpath=//input[@id='qty-834bc750-3a60-4d47-aaf2-7985b4aecde3']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div/div/main/div[4]/div/div/table/tbody/tr/td[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0412fc10-c976-4d00-86db-9cbe2fdd8f57",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=qty-834bc750-3a60-4d47-aaf2-7985b4aecde3",
+      "targets": [
+        ["id=qty-834bc750-3a60-4d47-aaf2-7985b4aecde3", "id"],
+        ["name=qty-834bc750-3a60-4d47-aaf2-7985b4aecde3", "name"],
+        ["css=#qty-834bc750-3a60-4d47-aaf2-7985b4aecde3", "css:finder"],
+        ["xpath=//input[@id='qty-834bc750-3a60-4d47-aaf2-7985b4aecde3']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div/div/main/div[4]/div/div/table/tbody/tr/td[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }]
+  }, {
+    "id": "79e39872-171f-43a1-8b5a-2ee1d2137124",
+    "name": "AddToCart_5Items",
+    "commands": [{
+      "id": "0ba9ffd1-9be8-4ed3-b968-f0b013c72d5f",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1968b155-5821-445f-b220-7be44fe4e4ee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "650368c0-89e9-4d67-8982-c10ed29713a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CHAMPS SOFTECH Collection 2-Piece Smart Expandable SOFTSIDE Spinner Luggage Set with USB Port - Navy",
+      "targets": [
+        ["linkText=CHAMPS SOFTECH Collection 2-Piece Smart Expandable SOFTSIDE Spinner Luggage Set with USB Port - Navy", "linkText"],
+        ["css=#new-products_index2 > .product:nth-child(3) .card-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CHAMPS SOFTECH Collection 2-Piece Smart Expandable SOFTSIDE Spinner Luggage Set with USB Port - Navy')]", "xpath:link"],
+        ["xpath=//ul[@id='new-products_index2']/li[3]/article/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://shopsmartcanada.com/champs-softech-collection-2-piece-smart-expandable-softside-spinner-luggage-set-with-usb-port-navy/')])[2]", "xpath:href"],
+        ["xpath=//li[3]/article/div/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CHAMPS SOFTECH Collection 2-Piece Smart Expandable SOFTSIDE Spinner Luggage Set with USB Port - Navy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52ebbbb0-d7c5-4348-a23d-47d5c582c56f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_addToCartVisibility > .form-increment > .button:nth-child(3) use",
+      "targets": [
+        ["css=.\\_addToCartVisibility > .form-increment > .button:nth-child(3) use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "76a27125-780d-443d-b7a4-1827ca08b389",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.\\_addToCartVisibility > .form-increment > .button:nth-child(3) use",
+      "targets": [
+        ["css=.\\_addToCartVisibility > .form-increment > .button:nth-child(3) use", "css:finder"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "e190e24d-1488-48c9-9a04-786f779f2128",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_addToCartVisibility > .form-increment > .button:nth-child(3) use",
+      "targets": [
+        ["css=.\\_addToCartVisibility > .form-increment > .button:nth-child(3) use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a31ab97e-5ad2-48df-aef2-f8ed053f9643",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_addToCartVisibility > .form-increment > .button:nth-child(3) use",
+      "targets": [
+        ["css=.\\_addToCartVisibility > .form-increment > .button:nth-child(3) use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c8b2d3a-8a04-48a4-bdc5-acaba4d9e50f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_addToCartVisibility > .form-increment > .button:nth-child(3) use",
+      "targets": [
+        ["css=.\\_addToCartVisibility > .form-increment > .button:nth-child(3) use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "52990fa2-bc37-4ecc-8fef-63217d978c9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_addToCartVisibility > .form-increment > .button:nth-child(3) use",
+      "targets": [
+        ["css=.\\_addToCartVisibility > .form-increment > .button:nth-child(3) use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e08cbef4-9e3b-4629-a250-e7296578f83c",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-action-addToCart",
+      "targets": [
+        ["id=form-action-addToCart", "id"],
+        ["css=#form-action-addToCart", "css:finder"],
+        ["xpath=//button[@id='form-action-addToCart']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div[2]/div/div[2]/div/div/div/section/div[4]/form/div[2]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f83247a1-9f34-4b53-93c4-4e84471f2922",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.\\_heading:nth-child(2)",
+      "targets": [
+        ["css=.\\_heading:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='cart-preview-dropdown']/div/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "c3b3c973-d54e-4ae6-bdf1-bb29a18a5fb6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_heading > a > span",
+      "targets": [
+        ["css=.\\_heading > a > span", "css:finder"],
+        ["xpath=//div[@id='cart-preview-dropdown']/div/div[2]/h2/a/span", "xpath:idRelative"],
+        ["xpath=//h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Edit Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d74e20b3-9a3a-4265-8586-99b49246e3da",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.cart-item-changes",
+      "targets": [
+        ["css=.cart-item-changes", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[11]/div/div/main/div[4]/div/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//td[3]", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "55890f64-5967-4c49-baeb-247adf4affc5",
+      "comment": "",
+      "command": "click",
+      "target": "id=qty-e8b03d02-2764-4a54-afb5-39cb1fe316f4",
+      "targets": [
+        ["id=qty-e8b03d02-2764-4a54-afb5-39cb1fe316f4", "id"],
+        ["name=qty-e8b03d02-2764-4a54-afb5-39cb1fe316f4", "name"],
+        ["css=#qty-e8b03d02-2764-4a54-afb5-39cb1fe316f4", "css:finder"],
+        ["xpath=//input[@id='qty-e8b03d02-2764-4a54-afb5-39cb1fe316f4']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div/div/main/div[4]/div/div/table/tbody/tr/td[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d5ce573-6f72-4091-8465-b7797cc5bd7b",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=qty-e8b03d02-2764-4a54-afb5-39cb1fe316f4",
+      "targets": [
+        ["id=qty-e8b03d02-2764-4a54-afb5-39cb1fe316f4", "id"],
+        ["name=qty-e8b03d02-2764-4a54-afb5-39cb1fe316f4", "name"],
+        ["css=#qty-e8b03d02-2764-4a54-afb5-39cb1fe316f4", "css:finder"],
+        ["xpath=//input[@id='qty-e8b03d02-2764-4a54-afb5-39cb1fe316f4']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div/div/main/div[4]/div/div/table/tbody/tr/td[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "5"
+    }]
+  }, {
+    "id": "ba06301a-4c5f-4189-98c3-23f663746b0a",
+    "name": "SubscribeNewsletter_ValidEmail",
+    "commands": [{
+      "id": "efa3535b-4723-464f-aace-307c3aa37322",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f1e9e5b-fea9-4bd0-b660-1ade87b45f61",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95b21957-f1e0-4994-bf1c-f14f06fcacc0",
+      "comment": "",
+      "command": "click",
+      "target": "id=nl_email",
+      "targets": [
+        ["id=nl_email", "id"],
+        ["name=nl_email", "name"],
+        ["css=#nl_email", "css:finder"],
+        ["xpath=//input[@id='nl_email']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/footer/div/div/form/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "648ea7a8-2d99-483a-be5f-4c1f7adbf845",
+      "comment": "",
+      "command": "type",
+      "target": "id=nl_email",
+      "targets": [
+        ["id=nl_email", "id"],
+        ["name=nl_email", "name"],
+        ["css=#nl_email", "css:finder"],
+        ["xpath=//input[@id='nl_email']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/footer/div/div/form/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/input", "xpath:position"]
+      ],
+      "value": "fakeemail@gmail.com"
+    }, {
+      "id": "363b01f4-2708-4f97-9bb2-3b72684443ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-primary",
+      "targets": [
+        ["css=.button-primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/footer/div/div/form/fieldset/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "812705d5-9e7f-494b-ac74-c84b11ab5413",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button-primary",
+      "targets": [
+        ["css=.button-primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/footer/div/div/form/fieldset/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9660cf0-2f69-4c92-aed6-940d76d0fdad",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.button-primary",
+      "targets": [
+        ["css=.button-primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/footer/div/div/form/fieldset/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afd18152-067c-49b9-b321-86dc14327d61",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Shop Smart Canada - Newsletter Subscription",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e79a279-70e8-4455-ab72-ee69b281518e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.alertBox-column > span",
+      "targets": [
+        ["css=.alertBox-column > span", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/section/div/div/p/span", "xpath:idRelative"],
+        ["xpath=//p/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b759d0fb-ed3e-4fca-8044-a75f52577ec3",
+    "name": "SubscribeNewletter_InvalidInput",
+    "commands": [{
+      "id": "fdbf46e9-9586-47f0-a4cf-89170fb8a9ad",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c38707b-99b4-4be3-ae0b-ed5c585e4e4d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2830b53-e8c6-491b-b63c-ca66429ad5b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=nl_email",
+      "targets": [
+        ["id=nl_email", "id"],
+        ["name=nl_email", "name"],
+        ["css=#nl_email", "css:finder"],
+        ["xpath=//input[@id='nl_email']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/footer/div/div/form/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e07a9fc2-f076-4368-b1fe-c4a172fe5b8e",
+      "comment": "",
+      "command": "type",
+      "target": "id=nl_email",
+      "targets": [
+        ["id=nl_email", "id"],
+        ["name=nl_email", "name"],
+        ["css=#nl_email", "css:finder"],
+        ["xpath=//input[@id='nl_email']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/footer/div/div/form/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/input", "xpath:position"]
+      ],
+      "value": "invalidemail"
+    }, {
+      "id": "31f0f29b-2f1a-4b59-92d7-aa98e6ac858d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-primary",
+      "targets": [
+        ["css=.button-primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/footer/div/div/form/fieldset/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fb993ed-5df7-494a-93ce-2e94fa2c5a69",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Shop Smart Canada",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "126db6dc-d33d-468c-aaa2-9517c5a7d539",
+    "name": "SignUp_ValidInputs",
+    "commands": [{
+      "id": "5e4f2b76-a9fa-48a7-990e-de353eea00e5",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "def8e5e9-8231-4384-9c00-0eb131dfdb4f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a8646df-6a28-4b92-87b4-299ec18d106a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navUser-action:nth-child(1) > .\\_label:nth-child(1)",
+      "targets": [
+        ["css=.navUser-action:nth-child(1) > .\\_label:nth-child(1)", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a2f70d6-0d1c-4f88-8ab6-62c5b0d349eb",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_1_input",
+      "targets": [
+        ["id=FormField_1_input", "id"],
+        ["name=FormField[1][1]", "name"],
+        ["css=#FormField_1_input", "css:finder"],
+        ["xpath=//input[@id='FormField_1_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_1']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d9c32e2-9649-4aa7-9bb5-05971bcc8a88",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_1_input",
+      "targets": [
+        ["id=FormField_1_input", "id"],
+        ["name=FormField[1][1]", "name"],
+        ["css=#FormField_1_input", "css:finder"],
+        ["xpath=//input[@id='FormField_1_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_1']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "fakeemail2@yahoo.ca"
+    }, {
+      "id": "59d47c9e-2949-4573-b0b9-121424c1a8ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-heading:nth-child(3)",
+      "targets": [
+        ["css=.page-heading:nth-child(3)", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'New Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0962921-f114-41fa-b8c6-bdf6b084a79d",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_2_input",
+      "targets": [
+        ["id=FormField_2_input", "id"],
+        ["name=FormField[1][2]", "name"],
+        ["css=#FormField_2_input", "css:finder"],
+        ["xpath=//input[@id='FormField_2_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_2']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8757d5c8-aea7-482b-a3f0-d76052361b45",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_2_input",
+      "targets": [
+        ["id=FormField_2_input", "id"],
+        ["name=FormField[1][2]", "name"],
+        ["css=#FormField_2_input", "css:finder"],
+        ["xpath=//input[@id='FormField_2_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_2']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Thisisatest.123"
+    }, {
+      "id": "849dddc4-528e-43d4-aa45-1fc1b44942d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_3_input",
+      "targets": [
+        ["id=FormField_3_input", "id"],
+        ["name=FormField[1][3]", "name"],
+        ["css=#FormField_3_input", "css:finder"],
+        ["xpath=//input[@id='FormField_3_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_3']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59143c06-ae5a-4fa7-999b-100d86af391b",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_3_input",
+      "targets": [
+        ["id=FormField_3_input", "id"],
+        ["name=FormField[1][3]", "name"],
+        ["css=#FormField_3_input", "css:finder"],
+        ["xpath=//input[@id='FormField_3_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_3']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Thisisatest.123"
+    }, {
+      "id": "c2845999-4585-4baa-b994-7e804344c076",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_4_input",
+      "targets": [
+        ["id=FormField_4_input", "id"],
+        ["name=FormField[2][4]", "name"],
+        ["css=#FormField_4_input", "css:finder"],
+        ["xpath=//input[@id='FormField_4_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_4']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3376e2df-9b97-4a18-be54-764379b6f02c",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_4_input",
+      "targets": [
+        ["id=FormField_4_input", "id"],
+        ["name=FormField[2][4]", "name"],
+        ["css=#FormField_4_input", "css:finder"],
+        ["xpath=//input[@id='FormField_4_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_4']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Brandon"
+    }, {
+      "id": "a2155f70-add0-4b2e-acc2-fcac8d3b9837",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_5",
+      "targets": [
+        ["id=FormField_5", "id"],
+        ["css=#FormField_5", "css:finder"],
+        ["xpath=//div[@id='FormField_5']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55741372-8a59-47ad-bdfe-0f6b7a1f9b1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_5_input",
+      "targets": [
+        ["id=FormField_5_input", "id"],
+        ["name=FormField[2][5]", "name"],
+        ["css=#FormField_5_input", "css:finder"],
+        ["xpath=//input[@id='FormField_5_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_5']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fd1cf3d-9ff0-4165-8aff-d72605761b3c",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_5_input",
+      "targets": [
+        ["id=FormField_5_input", "id"],
+        ["name=FormField[2][5]", "name"],
+        ["css=#FormField_5_input", "css:finder"],
+        ["xpath=//input[@id='FormField_5_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_5']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Lac"
+    }, {
+      "id": "c77a7c5f-eccf-4752-bbd1-1bf2a3ebcefc",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_7_input",
+      "targets": [
+        ["id=FormField_7_input", "id"],
+        ["name=FormField[2][7]", "name"],
+        ["css=#FormField_7_input", "css:finder"],
+        ["xpath=//input[@id='FormField_7_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_7']/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6320511f-4b71-41b9-b236-2a007ed48f7e",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_7_input",
+      "targets": [
+        ["id=FormField_7_input", "id"],
+        ["name=FormField[2][7]", "name"],
+        ["css=#FormField_7_input", "css:finder"],
+        ["xpath=//input[@id='FormField_7_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_7']/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "587339014"
+    }, {
+      "id": "9fd4a362-565e-4841-9bcd-0b73c162dc5e",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_8_input",
+      "targets": [
+        ["id=FormField_8_input", "id"],
+        ["name=FormField[2][8]", "name"],
+        ["css=#FormField_8_input", "css:finder"],
+        ["xpath=//input[@id='FormField_8_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_8']/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ba5a714-5266-40ec-89e1-8ad4eef9a70c",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_8_input",
+      "targets": [
+        ["id=FormField_8_input", "id"],
+        ["name=FormField[2][8]", "name"],
+        ["css=#FormField_8_input", "css:finder"],
+        ["xpath=//input[@id='FormField_8_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_8']/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "208 Evercrest Dr SW"
+    }, {
+      "id": "963f9814-60d9-44f7-8ff3-db7acfa5fc62",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_10_input",
+      "targets": [
+        ["id=FormField_10_input", "id"],
+        ["name=FormField[2][10]", "name"],
+        ["css=#FormField_10_input", "css:finder"],
+        ["xpath=//input[@id='FormField_10_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_10']/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c65bd34-371b-4eb6-95d5-de19654beab7",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_10_input",
+      "targets": [
+        ["id=FormField_10_input", "id"],
+        ["name=FormField[2][10]", "name"],
+        ["css=#FormField_10_input", "css:finder"],
+        ["xpath=//input[@id='FormField_10_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_10']/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "Calgary"
+    }, {
+      "id": "0e75bcca-61e5-4a30-9f3d-e8ddb66445ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_11_select",
+      "targets": [
+        ["id=FormField_11_select", "id"],
+        ["name=FormField[2][11]", "name"],
+        ["css=#FormField_11_select", "css:finder"],
+        ["xpath=//select[@id='FormField_11_select']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_11']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3361c8ea-eea7-450d-9f28-f825382beab9",
+      "comment": "",
+      "command": "select",
+      "target": "id=FormField_11_select",
+      "targets": [],
+      "value": "label=Canada"
+    }, {
+      "id": "bd52f2ec-827c-4f36-831b-fb972b309b1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(40)",
+      "targets": [
+        ["css=option:nth-child(40)", "css:finder"],
+        ["xpath=//option[@value='Canada']", "xpath:attributes"],
+        ["xpath=//select[@id='FormField_11_select']/option[40]", "xpath:idRelative"],
+        ["xpath=//option[40]", "xpath:position"],
+        ["xpath=//option[contains(.,'Canada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a0492a2-a3d8-4b41-86ea-22a5b254bcd9",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_12_input",
+      "targets": [
+        ["id=FormField_12_input", "id"],
+        ["name=FormField[2][12]", "name"],
+        ["css=#FormField_12_input", "css:finder"],
+        ["xpath=//select[@id='FormField_12_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_12']/select", "xpath:idRelative"],
+        ["xpath=//div[12]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0af980e8-0680-4995-b300-e9ef1e0a9c1f",
+      "comment": "",
+      "command": "select",
+      "target": "id=FormField_12_input",
+      "targets": [],
+      "value": "label=Alberta"
+    }, {
+      "id": "adeb660c-6c9b-43aa-8e1e-bef9ca87934f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#FormField_12_input > option:nth-child(2)",
+      "targets": [
+        ["css=#FormField_12_input > option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='Alberta']", "xpath:attributes"],
+        ["xpath=//select[@id='FormField_12_input']/option[2]", "xpath:idRelative"],
+        ["xpath=//div[12]/select/option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Alberta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94448968-5cb9-411c-b9c1-9437cbee464d",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_13_input",
+      "targets": [
+        ["id=FormField_13_input", "id"],
+        ["name=FormField[2][13]", "name"],
+        ["css=#FormField_13_input", "css:finder"],
+        ["xpath=//input[@id='FormField_13_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_13']/input", "xpath:idRelative"],
+        ["xpath=//div[13]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33ad0587-19a5-49ae-a6d0-8d7cbac30655",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_13_input",
+      "targets": [
+        ["id=FormField_13_input", "id"],
+        ["name=FormField[2][13]", "name"],
+        ["css=#FormField_13_input", "css:finder"],
+        ["xpath=//input[@id='FormField_13_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_13']/input", "xpath:idRelative"],
+        ["xpath=//div[13]/input", "xpath:position"]
+      ],
+      "value": "T2Y0C9"
+    }, {
+      "id": "c8d4a73f-6b52-4059-a51c-91494d9a6eda",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-row",
+      "targets": [
+        ["css=.form-row", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0f96be4-b62d-4028-b7f0-ba73efa559f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--primary",
+      "targets": [
+        ["css=.button--primary", "css:finder"],
+        ["xpath=//input[@value='Create Account']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9e89c7a-0f41-4148-9089-74b991a5062e",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Shop Smart Canada - Your Account Has Been Created",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cfbb7be3-8f4d-49ab-b6f3-008a0fd5904e",
+    "name": "SignUp_AlreadyExisting",
+    "commands": [{
+      "id": "f74d3535-56ad-4f85-894a-75c7a609a548",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "044d54f3-3e94-4881-be41-c8cd596a42b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09760d4a-e361-4031-8eb5-dae72af69969",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navUser-action:nth-child(1) > .\\_label:nth-child(1)",
+      "targets": [
+        ["css=.navUser-action:nth-child(1) > .\\_label:nth-child(1)", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a0bf868-1183-4f88-a272-bac3ba1217a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_1_input",
+      "targets": [
+        ["id=FormField_1_input", "id"],
+        ["name=FormField[1][1]", "name"],
+        ["css=#FormField_1_input", "css:finder"],
+        ["xpath=//input[@id='FormField_1_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_1']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da5e3748-2168-41b1-9cd9-352b9401cb52",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_1_input",
+      "targets": [
+        ["id=FormField_1_input", "id"],
+        ["name=FormField[1][1]", "name"],
+        ["css=#FormField_1_input", "css:finder"],
+        ["xpath=//input[@id='FormField_1_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_1']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "fakeemail@yahoo.ca"
+    }, {
+      "id": "532c629a-43dc-40ee-8391-3ab847cf305f",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_2_input",
+      "targets": [
+        ["id=FormField_2_input", "id"],
+        ["name=FormField[1][2]", "name"],
+        ["css=#FormField_2_input", "css:finder"],
+        ["xpath=//input[@id='FormField_2_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_2']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "269cc25b-c9e8-4746-82b9-d71c9de5bd00",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_2_input",
+      "targets": [
+        ["id=FormField_2_input", "id"],
+        ["name=FormField[1][2]", "name"],
+        ["css=#FormField_2_input", "css:finder"],
+        ["xpath=//input[@id='FormField_2_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_2']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Thisisatest.123"
+    }, {
+      "id": "50e31d07-4de5-4d0e-8089-1e21a92e5c68",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_3_input",
+      "targets": [
+        ["id=FormField_3_input", "id"],
+        ["name=FormField[1][3]", "name"],
+        ["css=#FormField_3_input", "css:finder"],
+        ["xpath=//input[@id='FormField_3_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_3']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4851b18-df19-4656-9eca-ff92e7c20ebb",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_3_input",
+      "targets": [
+        ["id=FormField_3_input", "id"],
+        ["name=FormField[1][3]", "name"],
+        ["css=#FormField_3_input", "css:finder"],
+        ["xpath=//input[@id='FormField_3_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_3']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Thisisatest.123"
+    }, {
+      "id": "0319b2a9-274b-4d20-892c-8148edcf8c4c",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_4_input",
+      "targets": [
+        ["id=FormField_4_input", "id"],
+        ["name=FormField[2][4]", "name"],
+        ["css=#FormField_4_input", "css:finder"],
+        ["xpath=//input[@id='FormField_4_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_4']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0c78fe3-aba4-46db-a5dd-e5cd4731371d",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_4_input",
+      "targets": [
+        ["id=FormField_4_input", "id"],
+        ["name=FormField[2][4]", "name"],
+        ["css=#FormField_4_input", "css:finder"],
+        ["xpath=//input[@id='FormField_4_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_4']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Brandon"
+    }, {
+      "id": "a3927bf8-006a-48d0-b546-57bd98612012",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_5_input",
+      "targets": [
+        ["id=FormField_5_input", "id"],
+        ["name=FormField[2][5]", "name"],
+        ["css=#FormField_5_input", "css:finder"],
+        ["xpath=//input[@id='FormField_5_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_5']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad8b81ce-f773-4840-8610-86b0a75d93b5",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_5_input",
+      "targets": [
+        ["id=FormField_5_input", "id"],
+        ["name=FormField[2][5]", "name"],
+        ["css=#FormField_5_input", "css:finder"],
+        ["xpath=//input[@id='FormField_5_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_5']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Lac"
+    }, {
+      "id": "22ea770b-1ced-4816-847b-7bfeda99cbab",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_7_input",
+      "targets": [
+        ["id=FormField_7_input", "id"],
+        ["name=FormField[2][7]", "name"],
+        ["css=#FormField_7_input", "css:finder"],
+        ["xpath=//input[@id='FormField_7_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_7']/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7be77a4b-d9fe-407e-8396-b071f013106f",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_7_input",
+      "targets": [
+        ["id=FormField_7_input", "id"],
+        ["name=FormField[2][7]", "name"],
+        ["css=#FormField_7_input", "css:finder"],
+        ["xpath=//input[@id='FormField_7_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_7']/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "5873390712"
+    }, {
+      "id": "346fd3a7-6cc1-4f62-8e50-a0353123668b",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_8_input",
+      "targets": [
+        ["id=FormField_8_input", "id"],
+        ["name=FormField[2][8]", "name"],
+        ["css=#FormField_8_input", "css:finder"],
+        ["xpath=//input[@id='FormField_8_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_8']/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0c199f2-c225-41ca-ab7f-63aeef0ae193",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_8_input",
+      "targets": [
+        ["id=FormField_8_input", "id"],
+        ["name=FormField[2][8]", "name"],
+        ["css=#FormField_8_input", "css:finder"],
+        ["xpath=//input[@id='FormField_8_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_8']/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "270 Evercrest Way SW"
+    }, {
+      "id": "9f27c363-2cf2-4370-917d-d0ed7273557c",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_10_input",
+      "targets": [
+        ["id=FormField_10_input", "id"],
+        ["name=FormField[2][10]", "name"],
+        ["css=#FormField_10_input", "css:finder"],
+        ["xpath=//input[@id='FormField_10_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_10']/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6294964-eb1b-4d7e-ae90-b9fb0fcf50f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_10_input",
+      "targets": [
+        ["id=FormField_10_input", "id"],
+        ["name=FormField[2][10]", "name"],
+        ["css=#FormField_10_input", "css:finder"],
+        ["xpath=//input[@id='FormField_10_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_10']/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "Calgary"
+    }, {
+      "id": "17764513-ed62-49ed-bb82-72a63cb85ef0",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_11_select",
+      "targets": [
+        ["id=FormField_11_select", "id"],
+        ["name=FormField[2][11]", "name"],
+        ["css=#FormField_11_select", "css:finder"],
+        ["xpath=//select[@id='FormField_11_select']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_11']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b93842be-7858-4df0-bc9c-ee713eb541d7",
+      "comment": "",
+      "command": "select",
+      "target": "id=FormField_11_select",
+      "targets": [],
+      "value": "label=Canada"
+    }, {
+      "id": "ace723eb-64f2-4aac-baea-38851ec733f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(40)",
+      "targets": [
+        ["css=option:nth-child(40)", "css:finder"],
+        ["xpath=//option[@value='Canada']", "xpath:attributes"],
+        ["xpath=//select[@id='FormField_11_select']/option[40]", "xpath:idRelative"],
+        ["xpath=//option[40]", "xpath:position"],
+        ["xpath=//option[contains(.,'Canada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "763dce87-81b4-499f-ab7a-9c58102ec886",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_12_input",
+      "targets": [
+        ["id=FormField_12_input", "id"],
+        ["name=FormField[2][12]", "name"],
+        ["css=#FormField_12_input", "css:finder"],
+        ["xpath=//select[@id='FormField_12_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_12']/select", "xpath:idRelative"],
+        ["xpath=//div[12]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "113c1a10-afd2-4403-97b3-2709ddacfedf",
+      "comment": "",
+      "command": "select",
+      "target": "id=FormField_12_input",
+      "targets": [],
+      "value": "label=Alberta"
+    }, {
+      "id": "e0cbadb6-be11-47e1-98ca-47227535a936",
+      "comment": "",
+      "command": "click",
+      "target": "css=#FormField_12_input > option:nth-child(2)",
+      "targets": [
+        ["css=#FormField_12_input > option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='Alberta']", "xpath:attributes"],
+        ["xpath=//select[@id='FormField_12_input']/option[2]", "xpath:idRelative"],
+        ["xpath=//div[12]/select/option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Alberta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b99528cf-18d1-431f-9d60-a706bbafff4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body > .container",
+      "targets": [
+        ["css=.body > .container", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fab00243-4a44-4d2d-8c15-4c71fcc1a861",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormField_13_input",
+      "targets": [
+        ["id=FormField_13_input", "id"],
+        ["name=FormField[2][13]", "name"],
+        ["css=#FormField_13_input", "css:finder"],
+        ["xpath=//input[@id='FormField_13_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_13']/input", "xpath:idRelative"],
+        ["xpath=//div[13]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bb2d20f-c957-40f2-8baa-e2c150d8f4f2",
+      "comment": "",
+      "command": "type",
+      "target": "id=FormField_13_input",
+      "targets": [
+        ["id=FormField_13_input", "id"],
+        ["name=FormField[2][13]", "name"],
+        ["css=#FormField_13_input", "css:finder"],
+        ["xpath=//input[@id='FormField_13_input']", "xpath:attributes"],
+        ["xpath=//div[@id='FormField_13']/input", "xpath:idRelative"],
+        ["xpath=//div[13]/input", "xpath:position"]
+      ],
+      "value": "T2Y0C9"
+    }, {
+      "id": "a9035b1e-c481-4c74-add8-326256758956",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-row",
+      "targets": [
+        ["css=.form-row", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3e3bb13-4ce7-4944-b26d-9ae4a5015d32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--primary",
+      "targets": [
+        ["css=.button--primary", "css:finder"],
+        ["xpath=//input[@value='Create Account']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c166126-1b46-47a2-8975-a50e751cb99b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.alertBox-column > span",
+      "targets": [
+        ["css=.alertBox-column > span", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/div/p/span", "xpath:idRelative"],
+        ["xpath=//p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'The email address fakeemail@yahoo.ca is already in use. Please enter a different one.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8d2e406e-daff-4242-abfa-6509efc5cee8",
+    "name": "Search_EmptyQuery",
+    "commands": [{
+      "id": "5f34fea7-ad3d-487f-a51d-966149fc8738",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f401632-498a-40ec-8570-2a41bf39d20b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80548d99-fbac-41f8-9213-e30a5236a066",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_submit > .icon",
+      "targets": [
+        ["css=.\\_submit > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe47a2af-c477-4552-8155-802aaa343337",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Shop Smart Canada",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9c1e419c-11d3-4f8c-a05e-44af56e0adc4",
+    "name": "Search_Bicycles",
+    "commands": [{
+      "id": "00f6062b-df19-4203-a0e4-263176b749b9",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f1b4d75-6279-4f05-9a27-4352bfac32ce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2318ff06-2f2e-4bdb-9f05-48de116fa999",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a94543ff-79d1-4dec-a351-bf5bdb6efdab",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Bicycles"
+    }, {
+      "id": "d77efb06-15d4-42e2-94ce-7f2270297f06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_submit use",
+      "targets": [
+        ["css=.\\_submit use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fa6bb14-a456-4828-a73e-0f197a3e6bff",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Shop Smart Canada",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "217d25f8-6020-4445-8880-f9e21544df82",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Louis Garneau Gros Louis 3 Bicycle",
+      "targets": [
+        ["linkText=Louis Garneau Gros Louis 3 Bicycle", "linkText"],
+        ["css=.product:nth-child(2) .card-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Louis Garneau Gros Louis 3 Bicycle')]", "xpath:link"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li[2]/article/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://shopsmartcanada.com/louis-garneau-gros-louis-3-bicycle/')])[2]", "xpath:href"],
+        ["xpath=//li[2]/article/div/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Louis Garneau Gros Louis 3 Bicycle')]", "xpath:innerText"]
+      ],
+      "value": "Louis Garneau Gros Louis 3 Bicycle"
+    }]
+  }, {
+    "id": "a5032569-a363-4c92-9aed-a8bc02b3f868",
+    "name": "BrowseMenu_BabyBedding",
+    "commands": [{
+      "id": "07933e86-c54e-4b12-9280-6de4148d65ff",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77a2df69-d058-4afa-a668-ad1af53d1547",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83d51334-b393-433f-a71b-ca2c48ec2089",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Baby",
+      "targets": [
+        ["linkText=Baby", "linkText"],
+        ["css=.navPages-item--id-84 > .navPages-action", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby')]", "xpath:link"],
+        ["xpath=//div[@id='bf-fix-menu-mobile']/nav/ul/li[3]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shopsmartcanada.com/baby/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a29fc5f6-d764-4ed2-b946-04883fc33534",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=Baby Bedding",
+      "targets": [
+        ["linkText=Baby Bedding", "linkText"],
+        ["css=#navPages-85 > .navPage-childList-item:nth-child(2) > .navPage-childList-action", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby Bedding')]", "xpath:link"],
+        ["xpath=//ul[@id='navPages-85']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shopsmartcanada.com/baby/baby-care-safety/baby-bedding/')]", "xpath:href"],
+        ["xpath=//li[3]/div/div[3]/ul/li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby Bedding')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "8837cd5f-5d36-48fd-8b69-380995c0a00a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Baby Bedding",
+      "targets": [
+        ["linkText=Baby Bedding", "linkText"],
+        ["css=#navPages-85 > .navPage-childList-item:nth-child(2) > .navPage-childList-action", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby Bedding')]", "xpath:link"],
+        ["xpath=//ul[@id='navPages-85']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shopsmartcanada.com/baby/baby-care-safety/baby-bedding/')]", "xpath:href"],
+        ["xpath=//li[3]/div/div[3]/ul/li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby Bedding')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "debeac1a-0278-4348-a6bf-2735f2668075",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.categoryPage-heading",
+      "targets": [
+        ["css=.categoryPage-heading", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Baby Bedding')]", "xpath:innerText"]
+      ],
+      "value": "Baby Bedding"
+    }]
+  }, {
+    "id": "fe79573d-3f0f-4517-b855-7097adf14327",
+    "name": "BrowseMenu_Telescopes",
+    "commands": [{
+      "id": "097b314d-111f-4d0d-b621-2f352c376251",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86d9941e-3b6b-49b3-bd7e-9cdf58db1e16",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e82ce99a-ab74-49d9-9f4c-21bb0d12d5a6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Sports & Fitness",
+      "targets": [
+        ["linkText=Sports & Fitness", "linkText"],
+        ["css=.navPages-item--id-163 > .navPages-action", "css:finder"],
+        ["xpath=//a[contains(text(),'Sports & Fitness')]", "xpath:link"],
+        ["xpath=//div[@id='bf-fix-menu-mobile']/nav/ul/li[5]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shopsmartcanada.com/sports-fitness/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c07d290b-8735-4423-978e-1f27322be5f8",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=Telescopes",
+      "targets": [
+        ["linkText=Telescopes", "linkText"],
+        ["css=#navPages-165 > .navPage-childList-item:nth-child(3) > .navPage-childList-action", "css:finder"],
+        ["xpath=//a[contains(text(),'Telescopes')]", "xpath:link"],
+        ["xpath=//ul[@id='navPages-165']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shopsmartcanada.com/sports-fitness/binoculars-telescopes/telescopes/')]", "xpath:href"],
+        ["xpath=//li[5]/div/div[3]/ul/li[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "416d4cf1-8236-47aa-b90d-2a3ca957bf92",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Telescopes",
+      "targets": [
+        ["linkText=Telescopes", "linkText"],
+        ["css=#navPages-165 > .navPage-childList-item:nth-child(3) > .navPage-childList-action", "css:finder"],
+        ["xpath=//a[contains(text(),'Telescopes')]", "xpath:link"],
+        ["xpath=//ul[@id='navPages-165']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shopsmartcanada.com/sports-fitness/binoculars-telescopes/telescopes/')]", "xpath:href"],
+        ["xpath=//li[5]/div/div[3]/ul/li[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7727528-5b48-4139-9aa2-ec909e342f8e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.categoryPage-heading",
+      "targets": [
+        ["css=.categoryPage-heading", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Telescopes')]", "xpath:innerText"]
+      ],
+      "value": "Telescopes"
+    }]
+  }, {
+    "id": "0e864796-da06-4ca2-9f70-dc6de07253da",
+    "name": "BrowseFromHomePage_Mattresses",
+    "commands": [{
+      "id": "4dbc1060-168c-452b-90f7-d860a9f33c7d",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b802494f-f166-4b8b-8c73-7fc2b669bf92",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cca060ac-0bfd-4b59-b6d9-1e63a5f00462",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#sd-simple-text-editable-48e82b60-0725-49e0-a21d-00bd7827a85f strong",
+      "targets": [
+        ["css=#sd-simple-text-editable-48e82b60-0725-49e0-a21d-00bd7827a85f strong", "css:finder"],
+        ["xpath=//div[@id='sd-simple-text-editable-48e82b60-0725-49e0-a21d-00bd7827a85f']/p/strong", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/p/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Shop Mattresses')]", "xpath:innerText"]
+      ],
+      "value": "Shop Mattresses"
+    }, {
+      "id": "3cae3a02-0a3e-4508-b49e-d1fbfe44bcfa",
+      "comment": "",
+      "command": "click",
+      "target": "id=sd-simple-button-editable-19dcfc55-11a1-4b02-9b27-8717933ea08b",
+      "targets": [
+        ["id=sd-simple-button-editable-19dcfc55-11a1-4b02-9b27-8717933ea08b", "id"],
+        ["linkText=Shop More >", "linkText"],
+        ["css=#sd-simple-button-editable-19dcfc55-11a1-4b02-9b27-8717933ea08b", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop More >')]", "xpath:link"],
+        ["xpath=//a[@id='sd-simple-button-editable-19dcfc55-11a1-4b02-9b27-8717933ea08b']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[10]/div[5]/div[4]/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/mattresses/')])[6]", "xpath:href"],
+        ["xpath=//div[5]/div[4]/div/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop More >')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dea6f747-d395-43dd-a308-a377e7282637",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.categoryPage-heading",
+      "targets": [
+        ["css=.categoryPage-heading", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Mattresses')]", "xpath:innerText"]
+      ],
+      "value": "Mattresses"
+    }]
+  }, {
+    "id": "126bf721-314a-4470-8f66-1260a71bc2a5",
+    "name": "BrowseFromHomePage_Rugs",
+    "commands": [{
+      "id": "caeea71f-fb48-4cc0-9525-84c2a57dcaac",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14688774-73fa-4ce2-ad15-0cddc34c7444",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91b735a1-ee86-491d-aeea-4e5f1ef88587",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#sd-simple-text-editable-84248a1b-3acc-4ad4-b5ae-ca72cfad29db strong",
+      "targets": [
+        ["css=#sd-simple-text-editable-84248a1b-3acc-4ad4-b5ae-ca72cfad29db strong", "css:finder"],
+        ["xpath=//div[@id='sd-simple-text-editable-84248a1b-3acc-4ad4-b5ae-ca72cfad29db']/p/strong", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/div/div/p/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Shop Rugs')]", "xpath:innerText"]
+      ],
+      "value": "Shop Rugs"
+    }, {
+      "id": "de342f31-78c0-423d-9a2a-0a6b1e29403c",
+      "comment": "",
+      "command": "click",
+      "target": "id=sd-simple-button-editable-fc1b3786-59cd-4d8c-9afb-01c7f796a205",
+      "targets": [
+        ["id=sd-simple-button-editable-fc1b3786-59cd-4d8c-9afb-01c7f796a205", "id"],
+        ["css=#sd-simple-button-editable-fc1b3786-59cd-4d8c-9afb-01c7f796a205", "css:finder"],
+        ["xpath=(//a[contains(text(),'Shop More >')])[2]", "xpath:link"],
+        ["xpath=//a[@id='sd-simple-button-editable-fc1b3786-59cd-4d8c-9afb-01c7f796a205']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[10]/div[5]/div[8]/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/rugs/')])[4]", "xpath:href"],
+        ["xpath=//div[8]/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "312a4f27-0fc1-4198-95d3-c5be220feedf",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.categoryPage-heading",
+      "targets": [
+        ["css=.categoryPage-heading", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Rugs')]", "xpath:innerText"]
+      ],
+      "value": "Rugs"
+    }]
+  }, {
+    "id": "fbf2155b-0d0a-483d-b580-e18381e7c089",
+    "name": "Display_1Column",
+    "commands": [{
+      "id": "b4d99388-1a52-438b-bb0f-3b8a3d61455a",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/sports-fitness/bikes-skateboards-scooters/bicycles/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "681bf0af-e3e8-4d38-8207-bb2d9f98e8dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-option:nth-child(3)",
+      "targets": [
+        ["css=.form-option:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='papathemes-productsFilter-form']/fieldset[3]/div/label", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8433d2c6-2c62-4933-ae87-b842da23d3e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x854",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07859426-ef01-4cb9-9543-aa87afbeeff0",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product:nth-child(1) .card-text--sku",
+      "targets": [
+        ["css=.product:nth-child(1) .card-text--sku", "css:finder"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li/article/div/div[2]", "xpath:idRelative"],
+        ["xpath=//article/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eecebbb-1478-4b85-bd56-a7ee1a3191c2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product:nth-child(2) .card-body",
+      "targets": [
+        ["css=.product:nth-child(2) .card-body", "css:finder"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li[2]/article/div", "xpath:idRelative"],
+        ["xpath=//li[2]/article/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47fbfbed-4278-4902-af41-c90d85b631d8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product:nth-child(3) .card-body",
+      "targets": [
+        ["css=.product:nth-child(3) .card-body", "css:finder"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li[3]/article/div", "xpath:idRelative"],
+        ["xpath=//li[3]/article/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "58e56dbd-4787-4df9-b31f-ecf88b615700",
+    "name": "Display_5Columns",
+    "commands": [{
+      "id": "6cacbd62-aac0-40fe-873b-cb3fa42ea81f",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/sports-fitness/bikes-skateboards-scooters/bicycles/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cad92ea-c297-4889-8fc3-3db8a58415e7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43a779cf-a955-4a3d-a4f2-8a68e91c01fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-option:nth-child(11)",
+      "targets": [
+        ["css=.form-option:nth-child(11)", "css:finder"],
+        ["xpath=//form[@id='papathemes-productsFilter-form']/fieldset[3]/div/label[5]", "xpath:idRelative"],
+        ["xpath=//label[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92e7dbfd-debf-4a34-98b0-853f2aa22e2e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product:nth-child(1) .card-body",
+      "targets": [
+        ["css=.product:nth-child(1) .card-body", "css:finder"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li/article/div", "xpath:idRelative"],
+        ["xpath=//article/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dddc38d7-1733-4d06-b642-20fc6987776e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product:nth-child(2) .card-body",
+      "targets": [
+        ["css=.product:nth-child(2) .card-body", "css:finder"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li[2]/article/div", "xpath:idRelative"],
+        ["xpath=//li[2]/article/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "964f6248-b11d-49b2-b8e6-5548e88c5e78",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product:nth-child(3) .card-body",
+      "targets": [
+        ["css=.product:nth-child(3) .card-body", "css:finder"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li[3]/article/div", "xpath:idRelative"],
+        ["xpath=//li[3]/article/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1649b51c-6749-4155-a666-8cecd53377c1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product:nth-child(4) .card-body",
+      "targets": [
+        ["css=.product:nth-child(4) .card-body", "css:finder"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li[4]/article/div", "xpath:idRelative"],
+        ["xpath=//li[4]/article/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11d9ced4-3cf7-4fe2-9f24-30bb8a410b66",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product:nth-child(5) .card-body",
+      "targets": [
+        ["css=.product:nth-child(5) .card-body", "css:finder"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li[5]/article/div", "xpath:idRelative"],
+        ["xpath=//li[5]/article/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fe198b44-ec8a-4ec1-b2f9-3ea562a0776b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.leons.ca/", "https://www.homedepot.ca/en/home.html", "https://shopsmartcanada.com/"],
+  "plugins": []
+}
